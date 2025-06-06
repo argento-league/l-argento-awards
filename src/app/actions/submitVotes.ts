@@ -1,6 +1,6 @@
 "use server";
 
-import { ternas } from "@/data/teams";
+import { ternas } from "@/data/ternas";
 import { getVoterByCode, submitVotesSupabase, updateVoter } from "@/lib/supabase";
 
 export type VoteSubmission = {

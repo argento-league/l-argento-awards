@@ -48,5 +48,42 @@ export interface Team {
     name: string;
     type: "code";
   };
+
+  export type VideoTerna = {
+    id: number;
+    name: string;
+    type: "video";
+    options: Video[];
+  };
+
+  export type ImageTerna = {
+    id: number;
+    name: string;
+    type: "image";
+    options: Team[];
+  };
+
+  export interface Video {
+    id: number;
+    name: string;
+    url: string;
+  }
+
+  export interface Image{
+    id: number;
+    name: string;
+    url: string;
+  }
+  export interface Option {
+    id: number;
+    name: string;
+  }
+
+  export type OptionTerna = {
+    id: number;
+    name: string;
+    type: "option";
+    options: Option[];
+  };
   
-  export type Terna = TeamTerna | PlayerTerna | StreamerTerna | CodeTerna;
+  export type Terna = TeamTerna | PlayerTerna | StreamerTerna | CodeTerna | VideoTerna | ImageTerna | OptionTerna;

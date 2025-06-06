@@ -2,7 +2,7 @@
 
 import { Button, Container, Typography, Alert, Snackbar, CircularProgress } from '@mui/material';
 import { TeamForm } from './TeamForm';
-import {  ternas } from '@/data/teams';
+import {  ternas } from '@/data/ternas';
 import { useState } from 'react';
 import { submitVotes } from '../actions/submitVotes';
 import { Player, Team, Streamer, Code } from '@/types';

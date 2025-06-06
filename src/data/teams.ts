@@ -1,123 +1,123 @@
-import { Player, Team, Terna } from "@/types";
+import { Option, Player, Team, Terna } from "@/types";
 
-const LA_LAKERS: Team = {
+export const LA_LAKERS: Team = {
   id: 1,
   name: "LA Lakers",
-  logo: "",
+  logo: "/team-logos/la-lakers.png",
 };
 
-const TEAM_SERVER: Team = {
+export const TEAM_SERVER: Team = {
   id: 2,
   name: "Team Server",
-  logo: "",
+  logo: "/team-logos/team-server.png",
 };
 
-const EFECTO_DIVINE: Team = {
+export const EFECTO_DIVINE: Team = {
   id: 3,
   name: "3fecto Divine",
-  logo: "",
+  logo: "/team-logos/3fecto-divine.png",
 };
 
-const THE_RAW_CHIKENS: Team = {
+export const THE_RAW_CHIKENS: Team = {
   id: 4,
-  name: "The Raw Chikens",
-  logo: "",
+  name: "The Raw Chickens",
+  logo: "/team-logos/the-raw-chickens.png",
 };
 
-const LA_GATONETA: Team = {
+export const LA_GATONETA: Team = {
   id: 5,
   name: "La Gatoneta",
-  logo: "",
+  logo: "/team-logos/la-gatoneta.png",
 };
 
-const PLAYER_LIBRE: Team = {
+export const PLAYER_LIBRE: Team = {
   id: 6,
   name: "Players Libres",
-  logo: "",
+  logo: "/team-logos/player-libres.png",
 };
 
-const BLACK_HOLES: Team = {
+export const BLACK_HOLES: Team = {
   id: 7,
   name: "Black Holes",
-  logo: "",
+  logo: "/team-logos/black-hole.png",
 };
 
-const THE_ORPHANS: Team = {
+export const THE_ORPHANS: Team = {
   id: 8,
   name: "The Orphans",
-  logo: "",
+  logo: "/team-logos/the-orphans.png",
 };
 
-const AS_DANCE: Team = {
+export const AS_DANCE: Team = {
   id: 9,
   name: "AS Dance",
-  logo: "",
+  logo: "/team-logos/as-dance.jpeg",
 };
 
-const ALDEA_GAMING: Team = {
+export const ALDEA_GAMING: Team = {
   id: 10,
   name: "Aldea Gaming",
-  logo: "",
+  logo: "/team-logos/aldea-gaming.png",
 };
 
-const CARPINCHOS_RAGE: Team = {
+export const CARPINCHOS_RAGE: Team = {
   id: 11,
   name: "Carpinchos Rage",
-  logo: "",
+  logo: "/team-logos/carpinchos-rage.png",
 };
 
-const LEMURIA: Team = {
+export const LEMURIA: Team = {
   id: 12,
   name: "Lemuria",
-  logo: "",
+  logo: "/team-logos/lemuria.png",
 };
 
-const FANTASMAS: Team = {
+export const FANTASMAS: Team = {
   id: 13,
   name: "Fantasmas",
-  logo: "",
+  logo: "/team-logos/fantasmas.png",
 };
 
-const GUERREROS_Z: Team = {
+export const GUERREROS_Z: Team = {
   id: 14,
   name: "Guerreros Z",
-  logo: "",
+  logo: "/team-logos/guerreros-z.png",
 };
 
-const CHILDREN_OF_THE_CORN: Team = {
+export const CHILDREN_OF_THE_CORN: Team = {
   id: 15,
   name: "Childrens of the Corn",
-  logo: "",
+  logo: "/team-logos/cotc.png",
 };
 
-const HYDRA_SPORTS: Team = {
+export const HYDRA_SPORTS: Team = {
   id: 16,
   name: "Hydra E-sports",
-  logo: "",
+  logo: "/team-logos/hydra.png",
 };
 
-const SUSHI_BOY: Team = {
+export const SUSHI_BOY: Team = {
   id: 17,
   name: "Sushi Boys",
-  logo: "",
+  logo: "/team-logos/sushi-boys.png",
 };
 
-const WINDFURY_ENJOYERS: Team = {
+export const WINDFURY_ENJOYERS: Team = {
   id: 18,
   name: "Windfury Enjoyers",
-  logo: "",
+  logo: "/team-logos/windfury.png",
 };
 
-const BRANCA_TEAM: Team = {
+export const BRANCA_TEAM: Team = {
   id: 19,
   name: "Branca Team",
-  logo: "",
+  logo: "/team-logos/branca-team.png",
 };
 
-const THE_RATS: Team = {
+export const THE_RATS: Team = {
   id: 20,
   name: "The Rats",
-  logo: "",
+  logo: "/team-logos/the-rats.png",
 };
 
 export const teams: Team[] = [
@@ -694,7 +694,7 @@ export const players: Player[] = [
     id: 82,
     name: "MDFk PiPi",
     team: FANTASMAS.name,
-    position: 5,
+    position: 4,
     isCaptain: false,
   },
   {
@@ -1048,22 +1048,67 @@ export const players: Player[] = [
   },
 ];
 
-export const staff = [
+export const casters: Option[] = [
   {
-    name: "Caster 1",
+    id: 1,
+    name: "Ovo1de",
   },
   {
-    name: "Caster 2",
+    id: 2,
+    name: "Don Cokie",
   },
   {
-    name: "Caster 3",
+    id: 3,
+    name: "3mpty",
   },
   {
-    name: "Caster 4",
+    id: 4,
+    name: "Charii",
   },
   {
-    name: "Caster 5",
+    id: 5,
+    name: "Saturno",
   },
+  {
+    id: 6,
+    name: "dgn",
+  },
+  {
+    id: 7,
+    name: "Farren",
+  },
+  {
+    id: 8,
+    name: "Worlock",
+  },
+  {
+    id: 9,
+    name: "Nakato",
+  },
+  {
+    id: 10,
+    name: "Profe 30",
+  },
+  {
+    id: 11,
+    name: "Nan",
+  },
+  {
+    id: 12,
+    name: "Sanguito",
+  },
+  {
+    id: 13,
+    name: "Littlemplay",
+  },
+  {
+    id: 14,
+    name: "ILuleh",
+  },
+  {
+    id: 15,
+    name: "S4irus"
+  }
 ];
 
 export const streamers = [
@@ -1177,10 +1222,10 @@ const DREAM_TEAM = {
     },
     {
       id: 3,
-      name: "iroha",
+      name: "MDFk PiPi",
       team: FANTASMAS.name,
-      position: 2,
-      isCaptain: true,
+      position: 4,
+      isCaptain: false,
     },
   ],
   HARD_SUPPORT: [
@@ -1254,6 +1299,42 @@ const DREAM_TEAM = {
   ],
 };
 
+export const videos = [
+  {
+    id: 1,
+    name: "Video de la semana",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 2,
+    name: "Video de la semana",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  {
+    id: 3,
+    name: "Video de la semana",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+]
+
+export const images = [
+  {
+    id: 1,
+    name: "Imagen 1",
+    url: "https://picsum.photos/200/300",
+  },
+  {
+    id: 2,
+    name: "Imagen 2",
+    url: "https://picsum.photos/200/300",
+  },
+  {
+    id: 3,
+    name: "Imagen 3",
+    url: "https://picsum.photos/200/300",
+  }
+]
+
 export const ternas: Terna[] = [
   {
     id: 1,
@@ -1262,7 +1343,19 @@ export const ternas: Terna[] = [
     options: teams,
   },
   {
-    id: 2,
+    id: 2222,
+    name: "Mejor logo de equipo",
+    type: "image",
+    options: teams,
+  },
+  {
+    id: 1111,
+    name: "Video de la semana",
+    type: "video",
+    options: videos,
+  },
+  {
+    id: 3,
     name: "Equipo Decepción",
     type: "team",
     options: teams,
