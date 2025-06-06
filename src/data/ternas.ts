@@ -214,9 +214,31 @@ export const ternas: Terna[] = [
         name: "S4irus"
       }
     ]
+  },{
+    id:14,
+    name: "Mejor analista de la liga",
+    type: "option",
+    options: [
+      {
+        id:1,
+        name: "Saturno"
+      },
+      {
+        id:2,
+        name: "Ashlom"
+      },
+      {
+        id:3,
+        name: "Jann"
+      },
+      {
+        id:4,
+        name: "dgN"
+      }
+    ]
   },
   {
-    id:14,
+    id:15,
     name: "Mejor Serie polémica",
     type: "option",
     options: [
@@ -242,7 +264,7 @@ export const ternas: Terna[] = [
         }
     ],
   },{
-    id:15,
+    id:16,
     name: "Mejor Usuario",
     type: "option",
     options: [
@@ -288,7 +310,7 @@ export const ternas: Terna[] = [
       }
     ],
   },{
-    id:16,
+    id:17,
     name: "Mejor momento WTF",
     type: "option",
     options: [
@@ -310,7 +332,7 @@ export const ternas: Terna[] = [
         }
     ],
   },{
-    id:17,
+    id:18,
     name: "Mejor jugada",
     type: "video",
     options: [
@@ -356,7 +378,7 @@ export const ternas: Terna[] = [
         }
     ]
   },{
-    id:18,
+    id:19,
     name: "Mejor fail",
     type: "video",
     options: [
@@ -387,7 +409,7 @@ export const ternas: Terna[] = [
         }
     ]
   },{
-    id:19,
+    id:20,
     name: "Mejor rampage",
     type: "video",
     options: [
@@ -414,7 +436,7 @@ export const ternas: Terna[] = [
     ]
   },
   {
-    id: 20,
+    id: 21,
     name: "Codigo de votacion",
     type: "code",
   }
