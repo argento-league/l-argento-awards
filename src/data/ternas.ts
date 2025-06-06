@@ -329,6 +329,10 @@ export const ternas: Terna[] = [
         {
             id:4,
             name: "DonCookie finaliza el stream en calzones",
+        },
+        {
+            id:5,
+            name: "AshloM y Ovoide cuñados"
         }
     ],
   },{
